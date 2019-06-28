@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<nav class="vip">
+			<!-- 头部小导航条 -->
+			<div class="vip-nav">
+				<div class="city">郑州市</div>
+				<div class="city-arrows"></div>
+				<ul class="navbar">
+					<li>
+						<a href="register.html">请登录</a>
+						<div class="login">
+							<div class="touxiang">
+								<span></span>
+								<p>
+									<a id="loginn1" href="register.html">你好 [请登录]</a>
+								</p>
+							</div>
+							<div class="qita">
+								<ul>
+									<li>
+										<a href="#">我的收藏</a>
+									</li>
+									<li>
+										<a href="#">我的订单</a>
+									</li>
+									<li>
+										<a href="#">零钱</a>
+									</li>
+									<li>
+										<a href="#">我优惠券</a>
+									</li>
+									<li>
+										<a href="#">我的唯品币</a>
+									</li>
+									<li>
+										<a href="#">唯品金融</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="zhuce.html">注册</a>
+					</li>
+					<li>
+						<a href="#">签到有礼</a>
+					</li>
+					<li>
+						<a href="#">我的订单</a>
+					</li>
+					<li>
+						<a href="#">我的特卖 <span></span></a>
+						<ul>
+							<li>商品收藏</li>
+							<li>品牌收藏</li>
+							<li>我的足迹</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">会员俱乐部 <span></span></a>
+						<ul>
+							<li>俱乐部首页</li>
+							<li>唯品币兑换</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">客户服务 <span></span></a>
+						<ul>
+							<li>联系客服</li>
+							<li>帮助中心</li>
+							<li>服务中心</li>
+							<li>知识产权投诉</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">手机版</a>
+						<div class="iphoe">
+							<img src="img/vip.png">
+						</div>
+					</li>
+					<li>
+						<a href="#">更多<span></span></a>
+						<div class="item">
+							<ul class="item1">
+								<h3>合作专区</h3>
+								<li>联名卡申请</li>
+								<li>唯品卡</li>
+								<li>支付专区</li>
+							</ul>
+							<ul class="item2">
+								<h3>关于我们</h3>
+								<li>Sell on vip</li>
+								<li>品牌招商</li>
+								<li>官方博客</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- 头部小导航结束 -->
+		<!-- 中部搜索栏 开始 -->
+		<div class="serach">
+			<div class="ser">
+				<div class="logo">
+					<a href="#"><img src="img/logo.png"></a>
+					<a href="#"><img src="img/1.png"></a>
+				</div>
+				<!-- 搜索框 -->
+				<div class="serch-input">
+					<div class="int">
+						<input id="seranns" type="text" placeholder="连衣裙">
+						<a href=""><span class="iconfont icon-fangdajing"></span></a>
+					</div>
+
+					<div class="serach-log">
+						<ul class="serach-item">
+							<h3>搜索历史</h3>
+							<li>你好</li>
+						</ul>
+						<ul class="tuijian">
+							<h3>精选推荐</h3>
+						</ul>
+					</div>
+				</div>
+				<!-- 购物袋-->
+				<div class="shoping">
+					<div class="shoping-item">
+						<span class="iconfont icon-gouwudai1"></span>
+						<p>购物袋</p>
+						<p id="num">0</p>
+					</div>
+					<div class="shopping">
+						<p>好像还没有登录！
+							<a href="register.html">马上登录</a> 查看购物袋</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 菜单二级页面 -->
+		<div class="nav-navbarii" id="nav_submenu">
+			<div class="nav-navbaritem">
+				<ul class="nav-navbaritemul">
+					<li class="menu" id="menuitem">
+						<a href="#"><b>三</b><i>商品分类</i></a>
+						<ul>
+							<div id="navnanbar">
+							</div>
+							
+						</ul>
+
+					</li>
+					<li>
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="#">最后疯抢</a>
+					</li>
+					<li>
+						<a href="#">唯品快抢</a>
+					</li>
+					<li>
+						<a href="#">女装</a>
+					</li>
+					<li>
+						<a href="#">母婴</a>
+					</li>
+					<li>
+						<a href="#">家电</a>
+					</li>
+					<li>
+						<a href="#">国际</a>
+					</li>
+					<li>
+						<a href="#">美妆</a>
+					</li>
+					<li>
+						<a href="#">鞋包</a>
+					</li>
+					<li>
+						<a href="#">男装</a>
+					</li>
+					<li>
+						<a href="#">预告</a>
+					</li>
+					<li>
+						<a class="niv" href="#">更多</a>
+						<ul>
+							<li>
+								<a href="#">运动</a>
+							</li>
+							<li>
+								<a href="#">家具</a>
+							</li>
+							<li>
+								<a href="#">生活</a>
+							</li>
+							<li>
+								<a href="#">配饰</a>
+							</li>
+							<li>
+								<a href="#">唯品</a>
+							</li>
+							<li>
+								<a href="#">金融</a>
+							</li>
+							<li>
+								<a href="#">扶贫</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<div class="nav-menu" id="navnav_menu">
+					<div class="nav-menuol">
+						<div id="item123">
+						</div>
+					</div>
+					<a id="imga" href="#"><img src="img/pingpai.png"></a>
+				</div>
+			</div>
+		</div>
+		<!--轮播图-->
+		<div class="banner">
+			<div class="banner-z">
+				<ul>
+					<li><img src="img/shangpin.jpg" /></li>
+					<li><img src="img/shangpin2.jpg" /></li>
+				</ul>
+				<div class="bannernav" id="iremwen">
+					<span class="one">菲妮迪品牌钜献 折上7折</span>
+					<span>菲安妮品牌特卖日</span>
+				</div>
+				<div class="noe">
+					<span class="iconfont icon-jiantouyou zuo"></span>
+					<span class="iconfont icon-jiantouyou1 you"></span>
+				</div>
+			</div>
+		</div>
+		<!--轮播结束-->
+
+		<!--每日必看-->
+		<div class="everyday">
+			<div class="imgday">
+				<img src="img/15344789862278.jpg" />
+
+				<div class="imgm">
+					<a class="new1" href="liebiao.html">
+						<dl>
+							<dt>
+								<img src="img/xinkuan.jpg"></dt>
+							<dd>
+								<h5>你好你好你好你好</h5>
+								<p><b>快抢价</b><i>￥</i>299<del>￥399</del></p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/xinkuan.jpg"/></dt>
+							<dd>
+								<h5>新款新款新款</h5>
+								<p><b>快抢价</b><i>￥</i>299<del>￥399</del></p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/xinkuan.jpg"/></dt>
+							<dd>
+								<h5>新款新款新款</h5>
+								<p><b>快抢价</b><i>￥</i>299<del>￥399</del></p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/xinkuan.jpg"/></dt>
+							<dd>
+								<h5>新款新款新款</h5>
+								<p><b>快抢价</b><i>￥</i>299<del>￥39</del></p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/xinkuan.jpg"/></dt>
+							<dd>
+								<h5>新款新款新款</h5>
+								<p><b>快抢价</b><i>￥</i>299<del>￥399</del></p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/xinkuan.jpg"/></dt>
+							<dd>
+								<h5>新款新款新款</h5>
+								<p><b>快抢价</b><i>￥</i>299<del>￥399</del></p>
+							</dd>
+						</dl>
+					</a>
+					<a class="new2" href="liebiao.html">
+						<dl>
+							<dt><img src="img/xinkuan.jpg"/></dt>
+							<dd>
+								<h5>新款新款新款</h5>
+								<p><b>快抢价</b><i>￥</i>299<del>￥399</del></p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/xinkuan.jpg"/></dt>
+							<dd>
+								<h5>新款新款新款</h5>
+								<p><b>快抢价</b><i>￥</i>299<del>￥399</del></p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/xinkuan.jpg"/></dt>
+							<dd>
+								<h5>新款新款新款</h5>
+								<p><b>快抢价</b><i>￥</i>299<del>￥399</del></p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/xinkuan.jpg"/></dt>
+							<dd>
+								<h5>新款新款新款</h5>
+								<p><b>快抢价</b><i>￥</i>299<del>￥399</del></p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/xinkuan.jpg"/></dt>
+							<dd>
+								<h5>新款新款新款</h5>
+								<p><b>快抢价</b><i>￥</i>299<del>￥399</del></p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/xinkuan.jpg"/></dt>
+							<dd>
+								<h5>新款新款新款</h5>
+								<p><b>快抢价</b><i>￥</i>299<del>￥399</del></p>
+							</dd>
+						</dl>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--每日必看结束-->
+		<!--精选品牌-->
+		<div class="pinpai">
+			<div class="new_img"><img src="img/today_DDp.png" /></div>
+			<div class="timer">
+				<img src="img/count_topfive.png" />
+				<div class="timerr">
+				<span>10</span>
+				<span class="fen">10</span>
+				<span class="miao">10</span>
+				</div>
+			</div>
+		</div>
+		<!--内容开始-->
+		<div class="new_item">
+			<!--精选-->
+			<div class="new_pin jingxuan">
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156102281739916_570x273_90.jpg">
+
+						<h1>福玛玛集团精选女装专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上5折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156119119956826_570x273_90.jpg">
+						<h1>台格女装专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156102281739916_570x273_90.jpg">
+						<h1>台格女装专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156119119956826_570x273_90.jpg">
+						<h1>福玛玛集团精选女装专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156119119956826_570x273_90.jpg">
+						<h1>福玛玛集团精选女装专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156102281739916_570x273_90.jpg">
+						<h1>台格女装专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156102281739916_570x273_90.jpg">
+						<h1>台格女装专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156119119956826_570x273_90.jpg">
+						<h1>台格女装专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+			</div>
+
+			<!-- 女装 -->
+			<div class="new_pin nvzhuang item_pinpai">
+				<div class="Nz_log">
+					<img src="img/woman_2ad.png">
+					<span>更多女装品牌  ></span>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156102281739916_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="gengduo">
+					<p>查看更多女装品牌</p>
+				</div>
+			</div>
+			<!--鞋包-->
+			<div class="new_pin nvzhuang item_pinpai">
+				<div class="Nz_log">
+					<img src="img/shoe.png">
+					<span>更多女装品牌  ></span>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156102281739916_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="gengduo">
+					<p>查看更多女装品牌</p>
+				</div>
+			</div>
+			<!--男装-->
+
+			<div class="new_pin nvzhuang item_pinpai">
+				<div class="Nz_log">
+					<img src="img/men_hhqx.png">
+					<span>更多女装品牌  ></span>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156102281739916_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="gengduo">
+					<p>查看更多女装品牌</p>
+				</div>
+			</div>
+			<!--运动-->
+
+			<div class="new_pin nvzhuang item_pinpai">
+				<div class="Nz_log">
+					<img src="img/sport.png">
+					<span>更多女装品牌  ></span>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156102281739916_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="gengduo">
+					<p>查看更多女装品牌</p>
+				</div>
+			</div>
+			<!--服饰-->
+
+			<div class="new_pin nvzhuang item_pinpai">
+				<div class="Nz_log">
+					<img src="img/watch.png">
+					<span>更多女装品牌  ></span>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156102281739916_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="gengduo">
+					<p>查看更多女装品牌</p>
+				</div>
+			</div>
+			<!--美妆-->
+
+			<div class="new_pin nvzhuang item_pinpai">
+				<div class="Nz_log">
+					<img src="img/beauty_wrf.png">
+					<span>更多女装品牌  ></span>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156102281739916_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="gengduo">
+					<p>查看更多女装品牌</p>
+				</div>
+			</div>
+			<!--母婴-->
+
+			<div class="new_pin nvzhuang item_pinpai">
+				<div class="Nz_log">
+					<img src="img/kid_zZb.png">
+					<span>更多女装品牌  ></span>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156102281739916_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="gengduo">
+					<p>查看更多女装品牌</p>
+				</div>
+			</div>
+			<!--居家-->
+
+			<div class="new_pin nvzhuang item_pinpai">
+				<div class="Nz_log">
+					<img src="img/home_zhs.png">
+					<span>更多女装品牌  ></span>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156102281739916_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="gengduo">
+					<p>查看更多女装品牌</p>
+				</div>
+			</div>
+			<!--国际-->
+			<div class="new_pin nvzhuang item_pinpai">
+				<div class="Nz_log">
+					<img src="img/vipglobal_hbS_odfu.png">
+					<span>更多女装品牌  ></span>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156102281739916_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="gengduo">
+					<p>查看更多女装品牌</p>
+				</div>
+			</div>
+			<!--生活-->
+
+			<div class="new_pin nvzhuang item_pinpai">
+				<div class="Nz_log">
+					<img src="img/life-titel.png">
+					<span>更多女装品牌  ></span>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156102281739916_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1</b>折起<span>|</span><i>全场折上7折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="jx_item leftff">
+					<a href="#">
+						<img src="img/ias_156142908862544_570x273_90.jpg">
+						<h1>菲妮迪品牌钜献—夏日热销专场</h1>
+						<p><b>1.6</b>折起<span>|</span><i>全场折上8折</i></p>
+					</a>
+					<h2 class="shoucan"><span class="iconfont icon-xin"></span>收藏该品牌</h2>
+				</div>
+				<div class="gengduo">
+					<p>查看更多女装品牌</p>
+				</div>
+			</div>
+			<!--预告-->
+			<div class="yugao">
+				<div class="item-log">
+					<img src="img/tomorrow.png" />
+				</div>
+
+				<div class="itemtem">
+					<img src="img/ias_156135622940862_320x153_90.jpg" />
+					<h2><span>18元起-新生儿玩具专场</span></h2>
+					<h3><b>1</b>折起</h3>
+					<div class="telep">
+						<input type="text" placeholder="请输入手机号码" /><button type="button">开售提醒</button>
+					</div>
+				</div>
+				<div class="itemtem">
+					<img src="img/ias_156135622940862_320x153_90.jpg" />
+					<h2><span>18元起-新生儿玩具专场</span></h2>
+					<h3><b>1</b>折起</h3>
+					<div class="telep">
+						<input type="text" placeholder="请输入手机号码" /><button type="button">开售提醒</button>
+					</div>
+				</div>
+				<div class="itemtem">
+					<img src="img/ias_156135622940862_320x153_90.jpg" />
+					<h2><span>18元起-新生儿玩具专场</span></h2>
+					<h3><b>1</b>折起</h3>
+					<div class="telep">
+						<input type="text" placeholder="请输入手机号码" /><button type="button">开售提醒</button>
+					</div>
+				</div>
+				<div class="itemtem">
+					<img src="img/ias_156135622940862_320x153_90.jpg" />
+					<h2><span>18元起-新生儿玩具专场</span></h2>
+					<h3><b>1</b>折起</h3>
+					<div class="telep">
+						<input type="text" placeholder="请输入手机号码" /><button type="button">开售提醒</button>
+					</div>
+				</div>
+				<div class="itemtem">
+					<img src="img/ias_156135622940862_320x153_90.jpg" />
+					<h2><span>18元起-新生儿玩具专场</span></h2>
+					<h3><b>1</b>折起</h3>
+					<div class="telep">
+						<input type="text" placeholder="请输入手机号码" /><button type="button">开售提醒</button>
+					</div>
+				</div>
+				<div class="itemtem">
+					<img src="img/ias_156135622940862_320x153_90.jpg" />
+					<h2><span>18元起-新生儿玩具专场</span></h2>
+					<h3><b>1</b>折起</h3>
+					<div class="telep">
+						<input type="text" placeholder="请输入手机号码" /><button type="button">开售提醒</button>
+					</div>
+				</div>
+
+				<div id="chakan">
+					<a href="#">查看更多预告档期</a>
+				</div>
+
+			</div>
+			<!--底部-->
+			<footer>
+				<div class="lolo">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="footer_nav">
+					<ul>
+						<h3>服务保证</h3>
+						<li><i>■</i>
+							<a href="#">正品保证</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">7天无理由放心退</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">退货返10元唯品币</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">7x15小时客户服务</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">7天无理由随心换</a>
+						</li>
+					</ul>
+					<ul>
+						<h3>购物指南</h3>
+						<li><i>■</i>
+							<a href="#">导购演示</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">订单操作</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">会员注册</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">账户管理</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">收货样品</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">会员等级</a>
+						</li>
+					</ul>
+					<ul>
+						<h3>支付方式</h3>
+						<li><i>■</i>
+							<a href="#">快捷支付</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">23家主流网银支付</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">支付宝、银联等支付</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">信用卡支付</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">零钱支付</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">会员等级</a>
+						</li>
+					</ul>
+					<ul>
+						<h3>配送方式</h3>
+						<li><i>■</i>
+							<a href="#">全场满288元免运费</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">配送范围及运费</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">验收与签收</a>
+						</li>
+					</ul>
+					<ul>
+						<h3>售后服务</h3>
+						<li><i>■</i>
+							<a href="#">退货政策</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">退货流程</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">退款方式和时效</a>
+						</li>
+						<li><i>■</i>
+							<a href="#">换货服务</a>
+						</li>
+					</ul>
+					<ul>
+						<h3>唯品会APP二维码</h3>
+						<li><img src="img/page_bottom_dl_n.png"></li>
+						<li>
+							<a href="#">下载唯品会移动APP</a>
+						</li>
+					</ul>
+				</div>
+				<div class="foot_navbar">
+					<a href="#">关于我们</a><span>|</span>
+					<a href="#">About us</a><span>|</span>
+					<a href="#">Investor Relations</a><span>|</span>
+					<a href="#">媒体报道</a><span>|</span>
+					<a href="#">品牌招商</a><span>|</span>
+					<a href="#">隐私条款</a><span>|</span>
+					<a href="#">唯品诚聘</a><span>|</span>
+					<a href="#">唯品卡</a><span>|</span>
+					<a href="#">联系我们</a>
+				</div>
+
+				<div class="foot_wen">
+					Copyright © 2008-2019 vip.com，All Rights Reserved 使用本网站即表示接受 唯品会用户协议。版权所有 广州唯品会电子商务有限公司<br> 粤公网安备 44010302111111号 粤ICP备08114786号 增值业务经营许可证：粤B2-20170777 网络文化经营许可证：粤网文〔2018〕5030-1743号 <br> 自营主体经营证照 风险监测信息 互联网药品信息服务资格证书：（粤）-经营性-2018-0271 网络食品交易第三方平台备案凭证：粤B2-20170777 医疗器械网络交易服务第三方平台备案凭证：（粤）网械平台备字[2019]第00001号
+				</div>
+			</footer>
+			<!--楼梯-->
+			<div id="louti">
+				<ul>
+					<li>
+						<p><span class="iconfont icon-xingxing"></span>精选</p>
+					</li>
+					<li>
+						<p><span class="iconfont icon-nvzhuang"></span>女装</p>
+					</li>
+					<li>
+						<p><span class="iconfont icon-nanzhuang"></span>鞋包</p>
+					</li>
+					<li>
+						<p><span class="iconfont icon-yundong"></span>男装</p>
+					</li>
+					<li>
+						<p><span class="iconfont icon-shipin"></span>运动</p>
+					</li>
+					<li>
+						<p><span class="iconfont icon-meizhuang"></span>饰品</p>
+					</li>
+					<li>
+						<p><span class="iconfont icon-muying"></span>美妆</p>
+					</li>
+					<li>
+						<p><span class="iconfont icon-jujia"></span>母婴</p>
+					</li>
+					<li>
+						<p><span class="iconfont icon-guoji"></span>居家</p>
+					</li>
+					<li>
+						<p><span class="iconfont icon-iconcopy"></span>国际</p>
+					</li>
+					<li>
+						<p><span class="iconfont icon-iconcopy"></span>生活</p>
+					</li>
+					<li>
+						<p><span class="iconfont icon-yugao"></span>预告</p>
+					</li>
+
+				</ul>
+			</div>
+			<!--右侧栏-->
+			<div class="rightitem">
+				<ul>
+					<li>
+						<div>我的优惠券<img src="img/my_cnt_pic.jpg">
+						</div>
+						<span class="iconfont icon-renwu"></span>
+
+						<p>账号</p>
+					</li>
+					<li><span class="iconfont icon-gouwudai"></span>
+						<p>购物袋</p><i>0</i></li>
+					<li>
+						<div>我的优惠券</div><span class="iconfont icon-youhui"></span></li>
+					<li>
+						<div>品牌收藏</div><span class="iconfont icon-xin"></span></li>
+					<li>
+						<div>商品收藏</div><span class="iconfont icon-xingxing"></span></li>
+					<li>
+						<div>我的足迹</div><span class="iconfont icon-zuji"></span></li>
+					<li>
+						<div>会员反馈</div><span class="iconfont icon-qianbi"></span></li>
+					<li id="top">
+						<div>回到顶部</div><span class="iconfont icon-chevron-copy-copy-copy-copy-copy-copy"></span></li>
+				</ul>
+			</div>
+			<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
