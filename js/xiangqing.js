@@ -72,10 +72,35 @@ $(function() {
 			console.log(a)
 			$(".num").val(a)
 		})
+		
 	})
 
 })
 window.onload = function() {
+	
+	
+	////搜索cookie
+		var str=""
+		var cook= localStorage.getItem("token");
+		console.log(cook)
+	if(cook  ){
+		var str=""
+		var cook= localStorage.getItem("token");
+		console.log(cook)
+		str =`
+				<a>
+				  已登录
+				</a> 
+
+		`;
+		console.log($(".navbar"))
+		
+		
+	}
+	
+	
+	
+	
 
 	function $(id) {
 		return document.getElementById(id);
